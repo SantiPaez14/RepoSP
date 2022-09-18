@@ -74,6 +74,7 @@ h1 {
     font-weight: bold;
     font-size: xx-large;
     border: solid 2px black;
+    border-radius: 10px;
     background-color: black;
 }
 
@@ -397,7 +398,6 @@ select{
     .div-uno img{
         width: 350px;
         height: 350px;
-
     }
 
     textarea{
