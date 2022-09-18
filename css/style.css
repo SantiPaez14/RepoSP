@@ -399,4 +399,19 @@ select{
         height: 350px;
 
     }
+
+    textarea{
+        width: 450px;
+        height: 100px;
+    }
+    
+    .div-dos{
+        margin-left: 43vw;
+    }
+
+    .button-contacto{
+        margin-right: 10vw;
+        position: absolute;
+    
+    }
 }
