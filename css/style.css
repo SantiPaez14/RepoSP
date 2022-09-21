@@ -159,21 +159,6 @@ footer{
 
 
 }
-
-#grilla-dos {
-    background-color: black;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr 1fr 1fr .1fr;
-    grid-template-areas: "header header header header"
-                         "main main main main"
-                         "main main main main"
-                         "footer footer footer footer";
-   
-   
-   
-}
-
 main {
     grid-area: main; 
     
@@ -382,88 +367,72 @@ select{
 
 }
 
+@media only screen and (max-widht:1200px) {
+    #grilla {
+        gap: 220px;
+    }
+}
+
 
 @media only screen and (max-width:480px) {
         #grilla{
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: .2fr 1fr .2fr;
-            grid-template-areas: "header header"
-                                 "main"
-                                 "footer";
+           gap: 35px;
         }
 
-        main{
-            display: flex;
-            display: grid;
-            
-        }
+        main img {
 
-        header{
-            border: none;
-        }
-
-        footer {
-            margin-top: 100vh;
+            width: 200px;
+    
+            padding: 0;
+    
+            margin: auto;
+    
         }
 
         .estilo-lista { 
-            border:none;
-            display: flex;
-            background-color: none;
-            width: 100%;
             
+            border:none;      
             
         } 
 
       ul li a{
         font-size:3vh;
-        margin-left: 2vw;
-        
-        
+        margin-left: 2vw;   
       }
 
-      .div-uno{
-        flex-flow: row wrap;
-        margin-top: 8vh;
-       
+      .imagen-dos{
+        width: 220pxpx;
+        height:220px;
       }
 
-      .div-uno img{
-        width: 10px;
-        height: 10px;
-        margin-left: 15vw;
-        position: relative;
-      }
-
-
-      #grilla-dos{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: .3fr .5fr 1fr .3fr;
-        grid-template-areas: "header header header header"
-                             "main main main main"
-                             "main main main main"
-                             "footer footer footer footer";
-
-      }
-      
       fieldset{
-       display: flex;
-       flex-wrap: wrap;
-       position: absolute;
-       margin-top: 35vh;
-       height: 60;
-       
+        width: 65vw;
        
       }
 
-      fieldset img{
-        width: 150px;
-        height: 150px;
+      .img-1{
+        width: 125px;
+        height: 125px;
       }
 
       fieldset textarea{
         width: 50px;
         height: 50px
+      }
+
+      .legend-dos{
+        width: 20vw;
+        font-size: 2vh;
+      }
+      
+      .legend-tres{
+        width: 25vw;
+        font-size: 2vh;
+      }
+
+      .legend-cuatro{
+        width: 10vw;
+        font-size: 2vh;
       }
       
       fieldset legend{
@@ -473,6 +442,7 @@ select{
      .div-botones input{
         width: 13vw;
         height: 3vh;
+        position: relative;
      }
 
      .button-contacto a{
@@ -482,14 +452,23 @@ select{
      }
 
      label{
+        flex-wrap: wrap;
         font-size: 2vh;
-        margin: 2vh 2vw;
+        margin: 1vw;
      }
      form ul li {
         margin: 2vh 2vw;
 
      }
 
+     input {
+        width: 25vw;
+     }
+     
+     .form-dos{
+        margin-top: 0vh;
+     }
+     
 }
 
 @media only screen and (max-width:2160px) {
