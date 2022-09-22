@@ -332,13 +332,38 @@ select{
    
 }
 
-.img-contacto{
-    position: absolute;
-    margin-top: 5vh;
+.carousel-inner {
+    width: 500px;
+
+    margin-left: 11vw;
+
+    border: solid 5px blue;
+
+}
+
+.carousel-inner img{
+
+    height: 500px;
+
+    width: 450px;
+}
+
+.img-contacto:hover{
+    position: relative;
     width: 30vw;
-   
+    height: 25vh;
+    transform: rotateY(360deg);
+    transition: 3s ease;
 
+}
 
+.container-img{
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+ 
+ 
 }
 
 .div-tres{
@@ -353,11 +378,7 @@ select{
     height: 300px;
 }
 
-.imagen-tres{ 
-    border: solid 3px blue;
-    width: 300px;
-    height: 300px;
-}
+
 
 .form-dos{
         position: absolute;
