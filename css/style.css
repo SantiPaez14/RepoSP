@@ -297,6 +297,7 @@ select{
 .div-botones input {
     position: relative;
     float: right;
+    margin-top: 10vh;
     width: 5vw;
     border: solid 2px black;
     border-radius: 5px;
@@ -409,11 +410,26 @@ select{
             padding: 0;
     
             margin: auto;
+
+            display: flex;
     
         }
 
+        .img-contacto{
+            position: absolute;
+            width: 25vw;
+            height: 15vh;
+        }
+
+        .container-img{
+            transition: none;
+            transform: none;
+            width: 200px;
+        }
+
         .estilo-lista { 
-            
+            flex-direction: row;
+            flex-wrap: wrap;
             border:none;      
             
         } 
@@ -423,19 +439,26 @@ select{
         margin-left: 2vw;   
       }
 
-      .imagen-dos{
-        width: 220pxpx;
-        height:220px;
+      .carousel-inner{
+        width: 200px;
+        height: 200px;
+      }
+
+      .carousel-inner img {
+        width: 200px;
+        height: 200px;
       }
 
       fieldset{
-        width: 65vw;
+        width: 57vw;
        
       }
 
       .img-1{
         width: 125px;
         height: 125px;
+        margin-left: 25vw;
+        margin-top: 25vh;
       }
 
       fieldset textarea{
@@ -463,10 +486,12 @@ select{
       }
 
      .div-botones input{
-        width: 13vw;
+        width: 15vw;
         height: 3vh;
-        position: relative;
+      
+        margin-top: 1vh;
      }
+     
 
      .button-contacto a{
         width: 17vw;
@@ -475,23 +500,25 @@ select{
      }
 
      label{
-        flex-wrap: wrap;
         font-size: 2vh;
-        margin: 1vw;
      }
      form ul li {
-        margin: 2vh 2vw;
+        margin: 1vw;
 
      }
 
      input {
-        width: 25vw;
+        position: relative;
+        width: 18vw;
+        height: 3vh;
      }
-     
-     .form-dos{
-        margin-top: 0vh;
+
+     .div-dos{
+        position: absolute;
+        margin-right: 2vw;
      }
-     
+
+
 }
 
 @media only screen and (max-width:2160px) {
