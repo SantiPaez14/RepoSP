@@ -11,26 +11,6 @@
 }
 
 
-
-#grilla {
-
-    display: flex;
-
-    background-color: black;
-
-    align-content: center;
-
-    flex-direction: row;
-
-    flex-wrap: nowrap;
-
-    align-items: center;
-
-    gap: 150px;
-
-    }
-
-
 header {
 
     background-image: linear-gradient(90deg, rgba(0,0,133,1) 0%, rgba(41,33,201,1) 49%, rgba(0,212,255,1) 100%);
@@ -95,48 +75,42 @@ h1 {
 
 }
 
-
-.estilo-lista {
-
+.estilo-lista{
     background-color: black;
 
-    border-radius: 0px 10px 10px 0px;
-
     border: solid blue;
-
-    list-style-type: none;
-
+    
     text-align: center;
 
-    display: grid;
+}
 
-    justify-content: center;
+li{
 
+    display: inline;
 
 
 }
 
-ul li a{
 
+ul li a{
     text-decoration: none;
 
     color: white;
-
+    
     font-weight: bold;
 
     font-size: 4vh;
 
-    line-height: 4;
+    line-height: 2;
 
     background-color: black;
 
-    border-radius: 10px;
-
     border: solid 2px blue;
 
-
+    border-radius: 10px;
+    
+   
 }
-
 
 
 footer{
@@ -162,6 +136,8 @@ footer{
 main {
     grid-area: main;
 
+    background-color: black;
+
 
 }
 
@@ -182,7 +158,7 @@ form{
 
 fieldset {
     height: 78vh;
-    width: 70vw;
+    width: 100vw;
     border: solid blue;
     font-size: 2vh;
     background-image: linear-gradient(90deg, rgba(0,0,133,1) 0%, rgba(41,33,201,1) 49%, rgba(0,212,255,1) 100%);
@@ -264,21 +240,27 @@ select{
 
 }
 
+
 .div-dos{
-    align-items: center;
+    margin-top: 18vh;
 
-    margin-top: 10vh;
+    margin-right: 15vw;
 
-    font-size: 2vh;
+    float: right;
+
+    color: white;
+    
+
 }
+
 
 .div-botones input {
     position: relative;
-    float: right;
     margin-top: 5vh;
     width: 5vw;
     border: solid 2px black;
     border-radius: 5px;
+    float: right;
 
 
 }
@@ -312,9 +294,9 @@ select{
 }
 
 .carousel-inner {
-    width: 500px;
+    width: 40vw;
 
-    margin-left: 11vw;
+    margin-left: 50vw;
 
     border: solid 5px blue;
 
@@ -322,15 +304,15 @@ select{
 
 .carousel-inner img{
 
-    height: 500px;
+    height: 40vh;
 
-    width: 450px;
+    width: 40vw;
 }
 
 .img-contacto:hover{
     position: relative;
-    width: 30vw;
-    height: 25vh;
+    width: 40vw;
+    height: 40vh;
     transform: rotateY(360deg);
     transition: 3s ease;
 
@@ -338,8 +320,8 @@ select{
 
 .container-img{
     position: absolute;
-    width: 25vw;
-    height: 25vh;
+    width: 40vw;
+    height: 40vh;
     display: flex;
 
 
@@ -377,9 +359,13 @@ select{
 
 
 @media only screen and (max-width:480px) {
-        #grilla{
-           gap: 35px;
-        }
+
+    main{
+        width: 100vw;
+        
+    }
+    
+
 
         main img {
 
@@ -395,20 +381,27 @@ select{
 
         .img-contacto{
             position: absolute;
-            width: 25vw;
-            height: 15vh;
+            width: 60vw;
+            height: 20vh;
+        }
+
+        .img-contacto:hover{
+            transition: none;
+            transform: none;
+            width: none;
+            height: none;
         }
 
         .container-img{
-            transition: none;
-            transform: none;
-            width: 200px;
+            width: 25vw;
+            margin-left: 10vw;
         }
 
+  
         .estilo-lista {
             flex-direction: row;
             flex-wrap: wrap;
-            border:none;
+
 
         }
 
@@ -418,30 +411,26 @@ select{
       }
 
       .carousel-inner{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300PX;
+        margin-right: 50vw;
       }
 
       .carousel-inner img {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
       }
 
       fieldset{
-        width: 57vw;
+        width: 100vw;
 
       }
 
       .img-1{
-        width: 125px;
-        height: 125px;
-        margin-left: 25vw;
-        margin-top: 25vh;
-      }
-
-      fieldset textarea{
-        width: 50px;
-        height: 50px
+        width: 200px;
+        height: 200px;
+        margin-left: 35vw;
+        margin-top: 10vh;
       }
 
       .legend-dos{
@@ -466,8 +455,7 @@ select{
      .div-botones input{
         width: 15vw;
         height: 3vh;
-
-        margin-top: 1vh;
+        margin-top: 2vh;
      }
 
 
@@ -480,6 +468,7 @@ select{
      label{
         font-size: 2vh;
      }
+
      form ul li {
         margin: 1vw;
 
@@ -487,17 +476,18 @@ select{
 
      input {
         position: relative;
-        width: 18vw;
+        width: 40vw;
         height: 3vh;
+        float: center;
      }
 
      .div-dos{
         position: absolute;
-        margin-right: 2vw;
+        margin-top: 40vh;
      }
 
-
 }
+
 
 @media only screen and (max-width:2160px) {
     .div-uno img{
@@ -505,13 +495,9 @@ select{
         height: 350px;
     }
 
-    textarea{
-        width: 450px;
-        height: 100px;
-    }
-
     .div-dos{
         margin-left: 33vw;
     }
 
 }
+
