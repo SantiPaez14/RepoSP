@@ -40,7 +40,7 @@ header {
 
 .header_test {
 
-   
+
 
         display: flex;
 
@@ -52,7 +52,7 @@ header {
 
         align-items: center;
 
-   
+
 
 }
 
@@ -91,7 +91,7 @@ h1 {
     border-radius: 10px;
 
    background-color: black;
-   
+
 
 }
 
@@ -112,7 +112,7 @@ h1 {
 
     justify-content: center;
 
-   
+
 
 }
 
@@ -120,7 +120,7 @@ ul li a{
 
     text-decoration: none;
 
-    color: white; 
+    color: white;
 
     font-weight: bold;
 
@@ -160,23 +160,23 @@ footer{
 
 }
 main {
-    grid-area: main; 
-    
+    grid-area: main;
+
 
 }
 
 
 
 nav{
-   grid-area: nav; 
-    
+   grid-area: nav;
+
 }
 
 
 
 form{
     position: relative;
- 
+
     color: white;
 }
 
@@ -186,7 +186,7 @@ fieldset {
     border: solid blue;
     font-size: 2vh;
     background-image: linear-gradient(90deg, rgba(0,0,133,1) 0%, rgba(41,33,201,1) 49%, rgba(0,212,255,1) 100%);
-  
+
 }
 
 legend{
@@ -218,7 +218,7 @@ select{
 .legend-contacto{
     color:white;
     position: absolute;
-    
+
 
 
 }
@@ -250,62 +250,40 @@ select{
     width: 400px;
     border: solid 3px blue;
     margin-left: 35vw;
-    
+
 }
 
 
-.div-uno{ 
+.div-uno{
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     margin-left: 1vw;
     margin-top: 5vh;
     display: flex;
-   
-}  
-
-.user-login{
-    background-color: black;
-    position: absolute;
-    width: 3vw;
-    height: 5vh;
-    margin: 85vw;
-    margin-top: 2vh;
-
-}
-
-.user-login-dos{
-    background-color: blue;
-    position: absolute;
-    width: 3vw;
-    height: 5vh;
-    margin: 85vw;
-    margin-top: 5vh;
-
-
 
 }
 
 .div-dos{
     align-items: center;
-    
+
     margin-top: 10vh;
- 
+
     font-size: 2vh;
 }
 
 .div-botones input {
     position: relative;
     float: right;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: 5vw;
     border: solid 2px black;
     border-radius: 5px;
-    
-    
+
+
 }
 
-.button-faros a{ 
+.button-faros a{
     color: black;
     background-color: white;
     border-radius: 5px;
@@ -316,7 +294,7 @@ select{
     height: 2vh;
     margin-left: 86vw;
     margin-top: 1vh;
- 
+
 }
 
 .button-contacto a{
@@ -329,8 +307,8 @@ select{
     width: 7vw;
     height: 2vh;
     margin-left: 29vw;
-   
-   
+
+
 }
 
 .carousel-inner {
@@ -363,8 +341,8 @@ select{
     width: 25vw;
     height: 25vh;
     display: flex;
- 
- 
+
+
 }
 
 .div-tres{
@@ -385,7 +363,7 @@ select{
         position: absolute;
         margin-left: 4vw;
         margin-top: 1vh;
-    
+
 
 }
 
@@ -406,13 +384,13 @@ select{
         main img {
 
             width: 200px;
-    
+
             padding: 0;
-    
+
             margin: auto;
 
             display: flex;
-    
+
         }
 
         .img-contacto{
@@ -427,16 +405,16 @@ select{
             width: 200px;
         }
 
-        .estilo-lista { 
+        .estilo-lista {
             flex-direction: row;
             flex-wrap: wrap;
-            border:none;      
-            
-        } 
+            border:none;
+
+        }
 
       ul li a{
         font-size:3vh;
-        margin-left: 2vw;   
+        margin-left: 2vw;
       }
 
       .carousel-inner{
@@ -451,7 +429,7 @@ select{
 
       fieldset{
         width: 57vw;
-       
+
       }
 
       .img-1{
@@ -470,7 +448,7 @@ select{
         width: 20vw;
         font-size: 2vh;
       }
-      
+
       .legend-tres{
         width: 25vw;
         font-size: 2vh;
@@ -480,7 +458,7 @@ select{
         width: 10vw;
         font-size: 2vh;
       }
-      
+
       fieldset legend{
         font-size: 2vh;
       }
@@ -488,10 +466,10 @@ select{
      .div-botones input{
         width: 15vw;
         height: 3vh;
-      
+
         margin-top: 1vh;
      }
-     
+
 
      .button-contacto a{
         width: 17vw;
@@ -531,7 +509,7 @@ select{
         width: 450px;
         height: 100px;
     }
-    
+
     .div-dos{
         margin-left: 33vw;
     }
