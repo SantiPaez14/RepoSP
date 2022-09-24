@@ -138,6 +138,8 @@ main {
 
     background-color: black;
 
+    height: 80vh;
+
 
 }
 
@@ -298,13 +300,15 @@ select{
 
     margin-left: 50vw;
 
+    margin-top: 15vh;
+
     border: solid 5px blue;
 
 }
 
 .carousel-inner img{
 
-    height: 40vh;
+    height: 50vh;
 
     width: 40vw;
 }
@@ -478,7 +482,7 @@ select{
         position: relative;
         width: 40vw;
         height: 3vh;
-        float: center;
+        
      }
 
      .div-dos{
