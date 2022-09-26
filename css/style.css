@@ -321,15 +321,6 @@ select{
 
 }
 
-/* .container-img{
-    position: absolute;
-    width: 40vw;
-    height: 40vh;
-    display: flex;
-
-
-} */
-
 .div-tres{
     position: relative;
     margin-left: 2vw;
@@ -391,8 +382,8 @@ select{
         .img-contacto:hover{
             transition: none;
             transform: none;
-            width: none;
-            height: none;
+            width: 62vw;
+            height: 20vh;
         }
 
         .container-img{
@@ -416,7 +407,6 @@ select{
       .carousel-inner{
         width: 300px;
         height: 300PX;
-        margin-right: 50vw;
       }
 
       .carousel-inner img {
@@ -432,8 +422,8 @@ select{
       .img-1{
         width: 200px;
         height: 200px;
-        margin-left: 35vw;
-        margin-top: 10vh;
+        margin-left: 20vw;
+        margin-top: 45vh;
       }
 
       .legend-dos{
