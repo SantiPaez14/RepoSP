@@ -1,0 +1,158 @@
+
+@media only screen and (max-widht:1200px) {
+    #grilla {
+        gap: 220px;
+    }
+  }
+  
+  
+  @media only screen and (max-width:480px) {
+  
+    main{
+        width: 100vw;
+  
+    }
+  
+  
+  
+        main img {
+  
+            width: 200px;
+  
+            padding: 0;
+  
+            margin: auto;
+  
+            display: flex;
+  
+        }
+  
+        .img-contacto{
+            position: absolute;
+            width: 60vw;
+            height: 20vh;
+        }
+  
+        .img-contacto:hover{
+            transition: none;
+            transform: none;
+            width: 62vw;
+            height: 20vh;
+        }
+  
+        .container-img{
+            width: 25vw;
+            margin-left: 10vw;
+        }
+  
+  
+        .estilo-lista {
+            flex-direction: row;
+            flex-wrap: wrap;
+  
+  
+        }
+  
+      ul li a{
+        font-size:3vh;
+        margin-left: 2vw;
+      }
+  
+      #p-index{
+        width: 40vw;
+        text-align: center;
+        margin-top: 10vh;
+      }
+  
+      .carousel-inner{
+        width: 300px;
+        height: 300PX;
+        margin-top: 20vh;
+      }
+  
+      .carousel-inner img {
+        width: 300px;
+        height: 300px;
+      }
+  
+      fieldset{
+        width: 100vw;
+  
+      }
+  
+      .img-1{
+        width: 200px;
+        height: 200px;
+        margin-left: 20vw;
+        margin-top: 45vh;
+      }
+  
+      .legend-dos{
+        width: 20vw;
+        font-size: 2vh;
+      }
+  
+      .legend-tres{
+        width: 25vw;
+        font-size: 2vh;
+      }
+  
+      .legend-cuatro{
+        width: 10vw;
+        font-size: 2vh;
+      }
+  
+      fieldset legend{
+        font-size: 2vh;
+      }
+  
+     .div-botones input{
+        width: 15vw;
+        height: 3vh;
+        margin-top: 2vh;
+     }
+  
+  
+     .button-contacto a{
+        width: 17vw;
+        height: 5vh;
+        position: absolute;
+     }
+  
+     label{
+        font-size: 2vh;
+     }
+  
+     form ul li {
+        margin: 1vw;
+  
+     }
+  
+     input {
+        position: relative;
+        width: 40vw;
+        height: 3vh;
+  
+     }
+  
+     .div-dos{
+        position: absolute;
+        margin-top: 40vh;
+     }
+  
+  }
+  
+  
+  @media only screen and (max-width:2160px) {
+    .div-uno img{
+        width: 350px;
+        height: 350px;
+    }
+  
+    .div-dos{
+        margin-left: 33vw;
+    }
+  
+  }
+  
+  
