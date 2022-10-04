@@ -1,0 +1,260 @@
+main{
+
+    grid-area: main;
+
+    background-color: black;
+
+    height: 80vh;
+
+    .main-img {
+
+        width: 350px;
+    
+    
+    }
+
+    .carousel-inner {
+        width: 60vw;
+    
+        margin-top: 4vh;
+    
+        border: solid 5px blue;
+        
+        object-fit:cover
+        
+    
+    }
+
+    
+    .carousel-inner img{
+
+    height: 70vh;
+
+    width: 80vw;
+
+
+    }
+
+
+
+    form{
+        position: relative;
+    
+        color: white;
+    }
+
+    fieldset {
+        height: 78vh;
+        width: 100vw;
+        border: solid blue;
+        font-size: 2vh;
+        background-image: linear-gradient(90deg, rgba(0,0,133,1) 0%, rgba(41,33,201,1) 49%, rgba(0,212,255,1) 100%);
+        
+        .div-uno{
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            margin-left: 1vw;
+            margin-top: 5vh;
+            display: flex;
+        
+        }
+        
+        
+        
+        
+        .div-dos{
+            margin-top: 18vh;
+        
+            margin-right: 15vw;
+        
+            float: right;
+        
+            color: white;
+        
+        
+        }
+
+
+        .div-tres{
+            position: relative;
+            margin-left: 2vw;
+            margin-top: 5vh;
+        }
+
+        
+        legend{
+            font-size: 3vh;
+            font-weight: bold;
+            }
+        
+            .legend-contacto{
+                color:white;
+                position: absolute;
+            
+            
+            
+            }
+            
+        
+            .legend-dos{
+                font-size: 3vh;
+                font-weight: bold;
+                border: solid 2px black;
+                border-radius: 10px;
+                background-color: black;
+                width: 9vw;
+                text-align: center;
+            }
+            
+            .legend-tres{
+                font-size: 3vh;
+                font-weight: bold;
+                border: solid 2px black;
+                background-color: black;
+                width: 11vw;
+                text-align: center;
+                border-radius: 10px;
+            }
+        
+            .legend-cuatro{
+                font-size: 3vh;
+                font-weight: bold;
+                border: solid 2px black;
+                background-color: black;
+                width: 5vw;
+                text-align: center;
+                border-radius: 10px;
+            }
+
+            select{
+                font-size: 2vh;
+                border-radius: 5px;
+                border: solid 2px black;
+                position: relative;
+            }
+
+            .div-botones input {
+                position: relative;
+                margin-top: 5vh;
+                width: 5vw;
+                border: solid 2px black;
+                border-radius: 5px;
+                float: right;
+            
+            
+            }
+
+            .button-faros a{
+                color: black;
+                background-color: white;
+                border-radius: 5px;
+                border: solid 2px black;
+                position: absolute;
+                text-decoration: none;
+                width: 7vw;
+                height: 2vh;
+                margin-left: 86vw;
+                margin-top: 1vh;
+            
+            }
+
+            .button-contacto a{
+                color: black;
+                background-color: white;
+                border-radius: 5px;
+                border: solid 2px black;
+                position: absolute;
+                text-decoration: none;
+                width: 7vw;
+                height: 2vh;
+                margin-left: 29vw;
+            
+            
+            }
+
+            .form-dos{
+                position: absolute;
+                margin-left: 4vw;
+                margin-top: 1vh;
+            
+            
+            }
+
+            .img-1{
+                position: absolute;
+                width: 400px;
+                border: solid 3px blue;
+                margin-top: 50vh;
+            
+            
+            }    
+   
+   
+    }
+
+    #p-index{
+
+        margin-top: .5vh;
+    
+        color: white;
+    
+        background-image: linear-gradient(90deg, rgba(0,0,133,1) 0%, rgba(41,33,201,1) 49%, rgba(0,212,255,1) 100%);
+        
+    
+    }
+
+    .img-contacto:hover{
+        position: relative;
+        width: 40vw;
+        height: 40vh;
+        transform: rotateY(360deg);
+        transition: 3s ease;
+
+        .imagen-dos{
+            border: solid 3px blue;
+            width: 300px;
+            height: 300px;
+        }
+        
+    
+    }
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
