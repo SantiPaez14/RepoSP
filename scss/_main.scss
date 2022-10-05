@@ -1,5 +1,7 @@
 main{
 
+    @include reset;
+
     grid-area: main;
 
     background-color: black;
@@ -86,35 +88,33 @@ main{
         legend{
             font-size: 3vh;
             font-weight: bold;
-            }
+        }
         
-            .legend-contacto{
-                color:white;
-                position: absolute;
-            
-            
-            
-            }
+        .legend-contacto{
+            color:white;
+            position: absolute;
+                
+        }
             
         
-            .legend-dos{
-                font-size: 3vh;
-                font-weight: bold;
-                border: solid 2px black;
-                border-radius: 10px;
-                background-color: black;
-                width: 9vw;
-                text-align: center;
+        .legend-dos{
+            font-size: 3vh;
+            font-weight: bold;
+            border: solid 2px black;
+            border-radius: $border-variable*2;
+            background-color: black;
+            width: 9vw;
+            text-align: center;
             }
             
-            .legend-tres{
-                font-size: 3vh;
-                font-weight: bold;
-                border: solid 2px black;
-                background-color: black;
-                width: 11vw;
-                text-align: center;
-                border-radius: 10px;
+        .legend-tres{
+            font-size: 3vh;
+            font-weight: bold;
+            border: solid 2px black;
+            background-color: black;
+            width: 11vw;
+            text-align: center;
+            border-radius: $border-variable*2;
             }
         
             .legend-cuatro{
@@ -129,7 +129,7 @@ main{
 
             select{
                 font-size: 2vh;
-                border-radius: 5px;
+                border-radius: $border-variable;
                 border: solid 2px black;
                 position: relative;
             }
@@ -137,9 +137,9 @@ main{
             .div-botones input {
                 position: relative;
                 margin-top: 5vh;
-                width: 5vw;
+                width: $ancho-boton;
                 border: solid 2px black;
-                border-radius: 5px;
+                border-radius: $border-variable;
                 float: right;
             
             
@@ -148,7 +148,7 @@ main{
             .button-faros a{
                 color: black;
                 background-color: white;
-                border-radius: 5px;
+                border-radius: $border-variable;
                 border: solid 2px black;
                 position: absolute;
                 text-decoration: none;
@@ -162,7 +162,7 @@ main{
             .button-contacto a{
                 color: black;
                 background-color: white;
-                border-radius: 5px;
+                border-radius: $border-variable;
                 border: solid 2px black;
                 position: absolute;
                 text-decoration: none;

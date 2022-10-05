@@ -206,12 +206,6 @@ footer {
   text-align: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 @media only screen and (max-widht: 1200px) {
   #grilla {
     gap: 220px;

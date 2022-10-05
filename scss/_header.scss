@@ -43,7 +43,7 @@ header {
     
         border: solid 2px black;
     
-        border-radius: 10px;
+        border-radius: $border-variable*2;
     
        background-color: black;
     
@@ -68,7 +68,7 @@ header {
         
             border: solid 2px blue;
         
-            border-radius: 10px;
+            border-radius: $border-variable*2;
         
         
         }
