@@ -50,6 +50,11 @@ main {
   background-color: black;
   height: 80vh;
 }
+main * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 main .main-img {
   width: 350px;
 }
