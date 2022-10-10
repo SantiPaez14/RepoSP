@@ -58,18 +58,19 @@
       #p-index{
         width: 40vw;
         text-align: center;
-        margin-top: 10vh;
+        margin-top: 10vh !important;
       }
   
       .carousel-inner{
         width: 300px;
         height: 300PX;
-        margin-top: 20vh;
+        margin-top: 15vh !important;
       }
   
       .carousel-inner img {
-        width: 300px;
-        height: 300px;
+        width: 300px !important;
+        height: 300px !important;
+        
       }
   
       fieldset{
@@ -78,24 +79,24 @@
       }
   
       .img-1{
-        width: 200px;
-        height: 200px;
-        margin-left: 20vw;
+        width: 250px !important;
+        height: 250px;
+        margin-left: 30vw;
         margin-top: 45vh;
       }
   
       .legend-dos{
-        width: 20vw;
+        width: 22vw !important;
         font-size: 2vh;
       }
   
       .legend-tres{
-        width: 25vw;
+        width: 28vw !important;
         font-size: 2vh;
       }
   
       .legend-cuatro{
-        width: 10vw;
+        width: 14vw !important;
         font-size: 2vh;
       }
   
@@ -104,8 +105,8 @@
       }
   
      .div-botones input{
-        width: 15vw;
-        height: 3vh;
+        width: 15vw !important;
+        height: 3vh !important;
         margin-top: 2vh;
      }
   
@@ -134,7 +135,7 @@
   
      .div-dos{
         position: absolute;
-        margin-top: 40vh;
+        margin-top: 40vh !important;
      }
   
   }
