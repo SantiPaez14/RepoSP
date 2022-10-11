@@ -1,5 +1,5 @@
 
-@media only screen and (max-widht:1200px) {
+@media only screen and (max-width:1200px) {
     #grilla {
         gap: 220px;
     }
@@ -9,9 +9,17 @@
   @media only screen and (max-width:480px) {
   
     main{
-        width: 100vw;
+        width: 100%;
   
     }
+        .section-1{
+         display: inline-flex !important;
+         flex-wrap: wrap !important;
+         position: relative !important;
+        }
+        .section-1 p{
+          margin-top: 10vh !important;
+        }
         main img {
   
             width: 200px;
@@ -62,9 +70,10 @@
       }
   
       .carousel-inner{
-        width: 300px;
-        height: 300PX;
-        margin-top: 15vh !important;
+        width: 300px !important;
+        height: 250px !important;
+        margin-top: 5vh !important;
+        margin-left: 32vw !important;
       }
   
       .carousel-inner img {
@@ -79,10 +88,31 @@
       }
   
       .img-1{
-        width: 250px !important;
-        height: 250px;
-        margin-left: 30vw;
-        margin-top: 45vh;
+        width: 200px !important;
+        height: 200px !important;
+        margin-left: 80vw !important;
+        margin-top: 1vh !important;
+      }
+
+      .img-2{
+        width: 150px !important;
+        height: 150px !important;
+        margin-left: 30vw !important;
+        margin-top: 14vh !important;
+      }
+
+      .img-3{
+        width: 150px !important;
+        height: 150px !important;
+        margin-left: 80vw !important;
+        margin-top: 14vh !important;
+      }
+
+      .img-4{
+        width: 200px !important;
+        height: 200px !important;
+        margin-left: 30vw !important;
+        margin-top: 95vh !important;
       }
   
       .legend-dos{
@@ -107,7 +137,7 @@
      .div-botones input{
         width: 15vw !important;
         height: 3vh !important;
-        margin-top: 2vh;
+        margin-top: 10vh !important;
      }
   
   
@@ -137,6 +167,11 @@
         position: absolute;
         margin-top: 40vh !important;
      }
+
+    footer{
+      width: 100%;
+
+    }
   
   }
   

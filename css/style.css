@@ -47,7 +47,7 @@ li {
 
 main {
   grid-area: main;
-  background-color: black;
+  background-image: linear-gradient(90deg, rgb(0, 0, 133) 0%, rgb(41, 33, 201) 49%, rgb(0, 212, 255) 100%);
   height: 80vh;
 }
 main * {
@@ -59,15 +59,29 @@ main .main-img {
   width: 350px;
 }
 main .carousel-inner {
-  width: 60vw;
-  margin-top: 4vh;
+  width: 50vw;
+  height: 60vh;
   border: solid 5px blue;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 10vh;
 }
 main .carousel-inner img {
-  height: 70vh;
-  width: 80vw;
+  height: 60vh;
+}
+main .section-1 {
+  width: 20vw;
+  height: 20vh;
+  position: absolute;
+}
+main .section-1 p {
+  background-color: black;
+  margin-top: 25vh;
+  margin-left: 4vw;
+  font-size: large;
+  text-align: center;
+  color: blue;
+  border-radius: 5px;
 }
 main form {
   position: relative;
@@ -76,7 +90,6 @@ main form {
 main fieldset {
   height: 78vh;
   width: 100vw;
-  border: solid blue;
   font-size: 2vh;
   background-image: linear-gradient(90deg, rgb(0, 0, 133) 0%, rgb(41, 33, 201) 49%, rgb(0, 212, 255) 100%);
 }
@@ -178,9 +191,35 @@ main fieldset .form-dos {
 }
 main fieldset .img-1 {
   position: absolute;
-  width: 400px;
+  width: 300px;
+  height: 300px;
   border: solid 3px blue;
-  margin-top: 50vh;
+  margin-top: 12vh;
+  margin-left: 19vw;
+}
+main fieldset .img-2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: solid 3px blue;
+  margin-top: 27vh;
+  margin-left: 23.5vw;
+}
+main fieldset .img-3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: solid 3px blue;
+  margin-top: 27vh;
+  margin-left: 41vw;
+}
+main fieldset .img-4 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: solid 3px blue;
+  margin-top: 12vh;
+  margin-left: 25vw;
 }
 main #p-index {
   margin-top: 0.5vh;
@@ -211,14 +250,22 @@ footer {
   text-align: center;
 }
 
-@media only screen and (max-widht: 1200px) {
+@media only screen and (max-width: 1200px) {
   #grilla {
     gap: 220px;
   }
 }
 @media only screen and (max-width: 480px) {
   main {
-    width: 100vw;
+    width: 100%;
+  }
+  .section-1 {
+    display: inline-flex !important;
+    flex-wrap: wrap !important;
+    position: relative !important;
+  }
+  .section-1 p {
+    margin-top: 10vh !important;
   }
   main img {
     width: 200px;
@@ -255,9 +302,10 @@ footer {
     margin-top: 10vh !important;
   }
   .carousel-inner {
-    width: 300px;
-    height: 300PX;
-    margin-top: 15vh !important;
+    width: 300px !important;
+    height: 250px !important;
+    margin-top: 5vh !important;
+    margin-left: 32vw !important;
   }
   .carousel-inner img {
     width: 300px !important;
@@ -267,10 +315,28 @@ footer {
     width: 100vw;
   }
   .img-1 {
-    width: 250px !important;
-    height: 250px;
-    margin-left: 30vw;
-    margin-top: 45vh;
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 80vw !important;
+    margin-top: 1vh !important;
+  }
+  .img-2 {
+    width: 150px !important;
+    height: 150px !important;
+    margin-left: 30vw !important;
+    margin-top: 14vh !important;
+  }
+  .img-3 {
+    width: 150px !important;
+    height: 150px !important;
+    margin-left: 80vw !important;
+    margin-top: 14vh !important;
+  }
+  .img-4 {
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 30vw !important;
+    margin-top: 95vh !important;
   }
   .legend-dos {
     width: 22vw !important;
@@ -290,7 +356,7 @@ footer {
   .div-botones input {
     width: 15vw !important;
     height: 3vh !important;
-    margin-top: 2vh;
+    margin-top: 10vh !important;
   }
   .button-contacto a {
     width: 17vw;
@@ -311,6 +377,9 @@ footer {
   .div-dos {
     position: absolute;
     margin-top: 40vh !important;
+  }
+  footer {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 2160px) {

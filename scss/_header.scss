@@ -7,75 +7,75 @@ header {
 
 
         display: flex;
-    
+
         flex-wrap: wrap;
-    
-    
-    
+
         justify-content: center;
-    
+
         align-items: center;
 
         .header_test img {
 
             width: 80px;
-        
+
         }
-    
-    
-    
+
+
+
     }
 
-    
+
     h1 {
 
         color: blue;
-    
+
         text-align: center;
-    
+
         padding: 20px;
-    
+
         margin: 30px;
-    
+
         font-weight: bold;
-    
+
         font-size: xx-large;
-    
+
         border: solid 2px black;
-    
+
         border-radius: $border-variable*2;
-    
+
        background-color: black;
-    
-    
+
+
     }
-    
+
 
     nav{
         grid-area: nav;
+
         ul li a{
             text-decoration: none;
-        
+
             color: white;
-        
+
             font-weight: bold;
-        
+
             font-size: 4vh;
-        
+
             line-height: 2;
-        
+
             background-color: black;
-        
+
             border: solid 2px blue;
-        
+
             border-radius: $border-variable*2;
-        
-        
+
+
+
         }
-        
-     
+
+
      }
-     
+
 }
 
 
@@ -85,6 +85,7 @@ header {
     border: solid blue;
 
     text-align: center;
+
 
 }
 
